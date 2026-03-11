@@ -76,30 +76,17 @@ const Avatar = dynamic<AvatarProps>(
       // Conditional rendering based on detection
       return (
         <div
-          className={`flex items-center justify-center rounded-full transition-all duration-300 ${hasActiveTool ? 'h-20 w-20' : 'h-28 w-28'}`}
+          className={`flex items-center justify-center transition-all duration-300 ${hasActiveTool ? 'h-20 w-20' : 'h-28 w-28'}`}
         >
           <div
-            className="relative cursor-pointer"
+            className="relative cursor-pointer overflow-hidden rounded-full border-2 border-neutral-200 dark:border-neutral-700"
             onClick={() => (window.location.href = '/')}
           >
-            {isIOS() ? (
-              <img
-                src="/landing-memojis.png"
-                alt="iOS avatar"
-                className="h-full w-full scale-[1.8] object-contain"
-              />
-            ) : (
-              <video
-                ref={videoRef}
-                className="h-full w-full scale-[1.8] object-contain"
-                muted
-                playsInline
-                loop
-              >
-                <source src="/final_memojis.webm" type="video/webm" />
-                <source src="/final_memojis_ios.mp4" type="video/mp4" />
-              </video>
-            )}
+            <img
+              src="/profile-full.png"
+              alt="Jawahar S R"
+              className="h-full w-full object-cover object-top"
+            />
           </div>
         </div>
       );
@@ -392,12 +379,12 @@ const Chat = () => {
 </div>
 
         <a
-          href="https://linkedin.com/in/yuvraj-singh-77601827a"
+          href="https://www.linkedin.com/in/jawaharsr"
           target="_blank"
           rel="noopener noreferrer"
           className="fixed right-3 bottom-0 z-10 mb-4 hidden cursor-pointer items-center gap-2 rounded-xl px-4 py-2 text-sm hover:underline md:block"
         >
-          @yuvraj-singh
+          @jawaharsr
         </a>
       </div>
     </div>
