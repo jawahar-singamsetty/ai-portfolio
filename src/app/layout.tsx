@@ -76,24 +76,6 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="icon" href="/logo-yuvi.svg" sizes="any" />
-        {/* Google Analytics */}
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-QTH2CN2YRQ"
-          strategy="afterInteractive"
-        />
-        <Script
-          id="google-analytics"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window['dataLayer'] = window['dataLayer'] || [];
-              function gtag(){window['dataLayer'].push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-QTH2CN2YRQ');
-            `,
-          }}
-        />
       </head>
       <body
         className={cn(
