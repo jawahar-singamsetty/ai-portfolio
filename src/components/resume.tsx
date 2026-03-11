@@ -9,12 +9,11 @@ export function Resume() {
   // Resume details
   const resumeDetails = { 
     title: "Jawahar's Resume",
-    description: 'AI Engineer & Data Scientist',
+    description: 'AI Engineer & RAG Engineer',
     fileType: 'PDF',
     lastUpdated: 'March 2026',
     fileSize: '0.3 MB',
-    previewImageSrc: '/Resume_Jawahar_Singamsetty_AI.png',
-    downloadUrl: '/Resume_Jawahar_Singamsetty_AI.pdf',
+    downloadUrl: '/jawahar_SR_AI_Engineer_Resume.pdf',
   };
 
   const handleDownload = () => {

@@ -35,11 +35,10 @@ interface HelperBoostProps {
 
 const questions = {
   Me: 'Who are you? I want to know more about you.',
-  Projects: 'What are your projects? What are you working on right now?',
-  Skills: 'What are your skills? Give me a list of your soft and hard skills.',
-  Fun: "What the craziest thing you've ever done? (mb?) What are your hobbies? ",
-  Contact:
-    'How can I reach you? What kind of project would make you say "yes" immediately?',
+  Projects: 'Tell me about Retrivis.AI — what did you build and how does it work?',
+  Skills: 'What are your skills? Give me a list of your technical and soft skills.',
+  Fun: "What are your hobbies? And what's the craziest thing you've ever done?",
+  Contact:'How can I reach you? What kind of roles are you open to?',
 };
 
 const questionConfig = [
@@ -52,10 +51,10 @@ const questionConfig = [
 
 // Helper drawer data
 const specialQuestions = [
-  'Bike you said?? Show me!',
+  'Tell me about Retrivis.AI',
   'Who are you?',
   'Can I see your resume?',
-  'What projects are you most proud of?',
+  'What are you most proud of building?',
   'What are your skills?',
   'How can I reach you?',
   "What's the craziest thing you've ever done?",
@@ -104,7 +103,6 @@ const questionsByCategory = [
     name: 'Fun',
     icon: PartyPopper,
     questions: [
-      'Bike you said?? Show me!',
       "What's the craziest thing you've ever done?",
       'Mac or PC?',
       'what sports do you like?',
