@@ -1,17 +1,8 @@
 <div align="center">
-
-  <br />
-  <p>
-    <a href="https://www.yuvraj.bio"><img src="assets/readme-photo.png" alt="AI Portfolio Banner" width="100%"/></a>
-  </p>
-  <br />
-
-  <h1>🌐 World's First AI-Native Portfolio 🤖✨</h1>
+  <h1>AI Chatbot Portfolio 🤖✨</h1>
 </div>
 
 ---
-
-### **Badges**
 
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/yuvraj0412s/Yuvi_portfolio?style=for-the-badge" alt="Repo Size">
