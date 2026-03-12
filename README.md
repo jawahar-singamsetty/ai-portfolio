@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>AI Chatbot Portfolio 🤖✨</h1>
+  <h1>Jawahar's AI Portfolio 🤖✨</h1>
 </div>
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/jawahar-singamsetty/jawahar-ai-portfolio?style=for-the-badge" alt="Repo Size">
@@ -7,7 +7,7 @@
   <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"></a>
   <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Deployment"></a>
   <a href="https://mistral.ai/"><img src="https://img.shields.io/badge/Mistral-FF7E00?style=for-the-badge&logo=mistralai&logoColor=white" alt="Mistral API"></a>
-  <a href="https://github.com/jawahar-singamsetty/jawahar-ai-portfolio/stargazers"><img src="https://img.shields.io/github/stars/jawahar-singamsetty/ai-portfolio?style=for-the-badge&color=ffd700" alt="Repo Stars"></a>
+  <a href="https://github.com/jawahar-singamsetty/jawahar-ai-portfolio/stargazers"><img src="https://img.shields.io/github/stars/jawahar-singamsetty/jawahar-ai-portfolio?style=for-the-badge&color=ffd700" alt="Repo Stars"></a>
 </p>
 
 ---
@@ -24,7 +24,7 @@ It's not a portfolio. It's a conversation.
 
 ### **Features** ✨
 
-- **🗣️ Interactive AI Avatar:** Ask anything — my tech stack, projects, experience, or hobbies — and get instant, context-aware answers. Enagage in the real time conversation.
+- **🗣️ Interactive AI Avatar:** Ask anything — my tech stack, projects, experience, or hobbies — and get instant, context-aware answers. Engage in the real time conversation.
 - **🧠 Tool-Driven Intelligence:** The AI uses structured tools to fetch the right information — projects, skills, contact, availability — instead of guessing.
 - **🎨 Dynamic & Responsive UI:** A sleek, modern interface built with TailwindCSS and Framer Motion, designed for recruiters and developers alike.
 - **📂 Multimodal Project Showcase:** Explore Retrivis.AI with architecture diagrams, pipeline breakdowns, RAGAS benchmarks, and a live demo link.
