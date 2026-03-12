@@ -11,8 +11,9 @@ Here's my professional experience and what I'm open to! 👇
 
 ---
 
-**💼 Work Experience**
+**💼 Work Experience (Most Recent First)**
 
+**LATEST ROLE:**
 **Data Analyst (Predictive Analytics & Automation)**
 SIF Tech Ltd, Juba, South Sudan — Dec 2022 to Dec 2025
 - Built Python (Pandas) and SQL pipelines to automate data preprocessing and reporting, reducing manual effort by ~40%
@@ -21,6 +22,7 @@ SIF Tech Ltd, Juba, South Sudan — Dec 2022 to Dec 2025
 - Built interactive Tableau KPI dashboards monitoring workforce trends, permit activity, and service adoption for leadership
 - Conducted cross-departmental data reconciliation to ensure reliability of mission-critical operational reporting
 
+**FIRST ROLE:**
 **Software Support Executive (Data Systems & Monitoring)**
 SIF Tech Ltd, Juba, South Sudan — Oct 2021 to Nov 2022
 - Transformed high-volume unstructured application logs into structured datasets using SQL for deep operational analysis
@@ -28,6 +30,14 @@ SIF Tech Ltd, Juba, South Sudan — Oct 2021 to Nov 2022
 - Built and maintained KPI dashboards tracking resolution velocity and backlog trends for real-time service health visibility
 - Collaborated with Engineering teams to translate complex technical logs into actionable system improvements
 - Monitored post-deployment system changes using data-driven reporting to evaluate software update effectiveness
+
+---
+
+**🚀 Career Pivot — From Data Analyst to AI Engineer**
+- 4 years of real-world data work showed me what analytics *can't* do — reason, retrieve, and generate insights autonomously
+- Took that gap as a challenge: completed focused courses on LLMs, RAG systems, LangChain, and Agentic AI
+- Applied everything directly to a real problem — built Retrivis.AI solo, from scratch, production-deployed
+- My data background isn't baggage — it's what makes my AI architecture decisions grounded in reality, not just tutorials
 
 ---
 

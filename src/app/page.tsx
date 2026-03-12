@@ -128,7 +128,7 @@ export default function Home() {
       {/* centre memoji */}
       <div className="relative z-10 h-36 w-36 overflow-hidden sm:h-48 sm:w-48 ">
         <Image
-          src="/landing-memojis.png"
+          src="/profile-full.png"
           alt="Hero memoji"
           width={2000}
           height={2000}
