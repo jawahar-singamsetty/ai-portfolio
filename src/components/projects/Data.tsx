@@ -19,6 +19,8 @@ interface ProjectContentEntry {
   description: string;
   techStack: string[];
   date: string;
+  gif?: string;
+  liveUrl?: string;
   highlights?: ProjectHighlight[];
   links: { name: string; url: string }[];
   images: { src: string; alt: string }[];
@@ -30,6 +32,9 @@ const PROJECT_CONTENT: ProjectContentEntry[] = [
     title: 'Retrivis.AI',
     description:
       'Retrivis.AI is a production-deployed multimodal Agentic RAG platform engineered to extract actionable intelligence from unstructured documents, images, and live web data. Built for high-concurrency, production-grade reliability — validated through RAGAS benchmarking and LangSmith observability.',
+    date: '2026',
+    gif: '/projects/retrivis-gif.gif',
+    liveUrl: 'https://retrivis-ai-client.vercel.app',
     links: [
       {
         name: 'Live Website - Retrivis.AI',
@@ -39,7 +44,7 @@ const PROJECT_CONTENT: ProjectContentEntry[] = [
         name: 'GitHub Backend',
         url: 'https://github.com/jawahar-singamsetty/retrivis.ai-server.git',
       },
-      ],
+    ],
     techStack: [
       'Python',
       'FastAPI',
@@ -59,10 +64,9 @@ const PROJECT_CONTENT: ProjectContentEntry[] = [
       'LangSmith',
       'PyTorch',
       'Docker',
-      'AWS (EC2/S3)',
+      'AWS (ECS/S3)',
       'Git',
     ],
-    date: '2026',
     highlights: [
       {
         heading: 'Distributed Architecture',
@@ -160,6 +164,27 @@ const ProjectContent = ({ project }: { project: ProjectProps }) => {
           </div>
         </div>
       </div>
+
+      {/* GIF Preview — clickable, opens live site */}
+      {projectData.gif && (
+        <a
+          href={projectData.liveUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group relative block w-full overflow-hidden rounded-3xl cursor-pointer"
+        >
+          <img
+            src={projectData.gif}
+            alt="Retrivis.AI live demo"
+            className="w-full h-auto rounded-3xl transition-transform duration-300 group-hover:scale-[1.02]"
+          />
+          <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-300 rounded-3xl flex items-center justify-center">
+            <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white text-black text-sm font-medium px-4 py-2 rounded-full">
+              Visit Live Site ↗
+            </span>
+          </div>
+        </a>
+      )}
 
       {/* Highlights */}
       {projectData.highlights && projectData.highlights.length > 0 && (
