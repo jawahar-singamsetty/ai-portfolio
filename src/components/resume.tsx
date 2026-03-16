@@ -13,7 +13,7 @@ export function Resume() {
     fileType: 'PDF',
     lastUpdated: 'March 2026',
     fileSize: '0.3 MB',
-    downloadUrl: '/jawahar_SR_AI_Engineer_Resume.pdf',
+    downloadUrl: '/Jawahar_SR_AI_Engineer_Resume.pdf',
   };
 
   const handleDownload = () => {
