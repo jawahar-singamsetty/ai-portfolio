@@ -12,7 +12,7 @@ export function Presentation() {
     location: 'Bengaluru, India',
     // Add a newline character after the emoji
     description:
-      "Hey 👋\nI'm Jawahar, an AI-focused Data Analyst and AI Engineer with 4 years of experience. I build Generative AI solutions — RAG pipelines, LLM fine-tuning, and data products that actually solve real problems. Currently building Retrivis.AI 🚀",
+      "Hey 👋\nI'm Jawahar, an AI Engineer with experience of AI-focused Data Analyst. I build Generative AI solutions — RAG pipelines, LLM fine-tuning, and data products that actually solve real problems. Currently building Retrivis.AI 🚀",
     src: '/profile-jaw.png',
     fallbackSrc:
       'https://ui-avatars.com/api/?name=Jawahar+SR&background=000000&color=fff&size=400',

@@ -19,6 +19,7 @@ A production-deployed multimodal RAG platform designed to extract insights from 
 - Live URL: https://retrivis-ai-client.vercel.app
 - GitHub Backend: https://github.com/jawahar-singamsetty/retrivis.ai-server
 - GitHub Frontend: https://github.com/jawahar-singamsetty/retrivis.ai-client
+- Video Demo: https://www.loom.com/share/3317906ddbdb420783b6b9361b612d5a
 - Built by: Jawahar S R (solo project)
 - Year: 2026
 - LLM used: GPT-4o (gpt-4o)
